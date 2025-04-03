@@ -6,9 +6,10 @@
         "--privileged"
     ],
     "mounts": [
-        "type=bind,src=/var/lib/docker,dst=/var/lib/docker",
-        "type=bind,src=/lib/modules,dst=/lib/modules"
+        "type=bind,src=C:/Users/luisf/.devpod/agent/contexts/default/workspaces/srl-telemetry-lab/content,dst=/workspace",
+        "type=bind,src=C:/var/lib/docker,dst=/var/lib/docker",
+        "type=bind,src=C:/lib/modules,dst=/lib/modules"
     ],
-    "workspaceFolder": "${localWorkspaceFolder}",
-    "workspaceMount": "source=${localWorkspaceFolder},target=${localWorkspaceFolder},type=bind,consistency=cached"
+    "workspaceFolder": "/workspace",
+    "workspaceMount": "source=C:/Users/luisf/.devpod/agent/contexts/default/workspaces/srl-telemetry-lab/content,target=/workspace,type=bind,consistency=cached"
 }
