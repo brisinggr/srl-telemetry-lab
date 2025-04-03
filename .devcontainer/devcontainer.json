@@ -10,6 +10,5 @@
         "type=bind,src=C:/var/lib/docker,dst=/var/lib/docker",
         "type=bind,src=C:/lib/modules,dst=/lib/modules"
     ],
-    "workspaceFolder": "/workspace",
-    "workspaceMount": "source=C:/Users/luisf/.devpod/agent/contexts/default/workspaces/srl-telemetry-lab/content,target=/workspace,type=bind,consistency=cached"
+    "workspaceFolder": "/workspace"
 }
